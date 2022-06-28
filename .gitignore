@@ -19,6 +19,7 @@ lib64/
 parts/
 sdist/
 var/
+.pytest_cache/
 wheels/
 pip-wheel-metadata/
 share/python-wheels/
