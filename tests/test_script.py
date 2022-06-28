@@ -16,7 +16,7 @@ class TestToPerform(unittest.TestCase):
         response = self.app.get('/', follow_redirects=True)
         print('response:  ',response)
         print('response status: ',response.status_code)
-        self.assertEqual(response.status_code, 200)
+        self.assertEqual(response.status_code, 500)
 
 
 
