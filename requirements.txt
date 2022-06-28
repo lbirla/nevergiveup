@@ -14,3 +14,4 @@ zipp==3.6.0
 flask_cors
 joblib
 scikit-learn
+gunicorn
