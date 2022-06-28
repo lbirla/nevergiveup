@@ -16,7 +16,7 @@ app = Flask(__name__)
 @app.route('/', methods=['GET', 'POST'])
 def index():
     mssg = "starting of testing"
-    return mssg
+    return render_template('result.html',mssg=mssg)
 
 port = int(os.getenv("PORT", 5001))
 
