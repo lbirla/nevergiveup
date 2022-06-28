@@ -12,6 +12,5 @@ Werkzeug==2.0.2
 wincertstore==0.2
 zipp==3.6.0
 flask_cors
-pickle
 joblib
 scikit-learn==1.0.1
