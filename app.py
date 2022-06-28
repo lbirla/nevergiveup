@@ -5,7 +5,7 @@ app = Flask(__name__)
 @app.route('/', methods=['GET', 'POST'])
 def index():
     mssg="starting of testing"
-    return mssg
+    return render_template('result.html',mssg=mssg)
 
 
 if __name__ == "__main__":
