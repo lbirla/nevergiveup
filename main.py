@@ -18,7 +18,7 @@ def index():
     mssg = "starting of testing"
     return render_template('result.html',mssg=mssg)
 
-port = int(os.getenv("PORT", 500))
+port = int(os.getenv("PORT", 200))
 
 if __name__ == "__main__":
     host = '0.0.0.0'
